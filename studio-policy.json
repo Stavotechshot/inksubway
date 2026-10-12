@@ -1,0 +1,71 @@
+{
+  "source": "Studio policy image supplied by user",
+  "policies": [
+    [
+      "Deposit required",
+      "A 50% non-refundable deposit is required to secure all tattoo appointments."
+    ],
+    [
+      "Appointment confirmation",
+      "Appointments are only confirmed once the deposit has been received."
+    ],
+    [
+      "Deposit policy",
+      "Deposits cover appointment reservation and design preparation. Deposits will be forfeited in the event of cancellation, no-show, or failure to attend the scheduled appointment."
+    ],
+    [
+      "Rescheduling",
+      "Rescheduling requests must be made at least 48 hours before the appointment. One complimentary reschedule may be granted at the artist’s discretion."
+    ],
+    [
+      "Arrival time",
+      "Arriving late may result in a shortened session, rescheduling, or cancellation of the appointment."
+    ],
+    [
+      "Payment",
+      "The remaining balance must be paid before the tattoo session begins."
+    ],
+    [
+      "Guests",
+      "Clients are welcome to bring up to two guests to the studio. Guests must remain respectful of the studio environment and avoid disrupting the tattoo process."
+    ],
+    [
+      "Home service",
+      "Home service appointments are available upon request and must be arranged in advance. Additional charges apply depending on location, travel distance, and appointment requirements."
+    ],
+    [
+      "Changes to design",
+      "Any changes to the approved design, size, or placement may affect pricing and appointment duration."
+    ],
+    [
+      "Right to refuse service",
+      "INKSUBWAY reserves the right to refuse service to anyone who is intoxicated, abusive, or unable to comply with studio policies."
+    ]
+  ],
+  "aftercare": [
+    [
+      "Keep it clean",
+      "Wash your tattoo gently with mild, fragrance-free soap and lukewarm water."
+    ],
+    [
+      "Moisturize",
+      "Apply the recommended aftercare product as instructed by your artist."
+    ],
+    [
+      "Don’t touch",
+      "Do not scratch, pick, or peel the tattoo while it is healing."
+    ],
+    [
+      "Avoid soaking",
+      "Avoid swimming pools, beaches, hot tubs, and excessive moisture until the tattoo is fully healed."
+    ],
+    [
+      "Protect from sun",
+      "Protect your tattoo from direct sunlight and avoid tanning during the healing process."
+    ],
+    [
+      "Follow instructions",
+      "Follow all aftercare instructions carefully to ensure the best healing results."
+    ]
+  ]
+}

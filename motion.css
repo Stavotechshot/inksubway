@@ -1,0 +1,12 @@
+@media(prefers-reduced-motion:no-preference){
+  .motion-pending{opacity:0;transform:translateY(20px)}
+  .motion-arrived{animation:ink-reveal .65s cubic-bezier(.22,1,.36,1) both;animation-delay:var(--motion-delay,0ms)}
+  @keyframes ink-reveal{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+  .idea-open img{transition:filter .35s ease}.idea-open:hover img{filter:brightness(1.08)}
+  .gallery-open .portfolio-photo{transition:filter .35s ease,background-position .55s ease}
+  .text-link{transition:border-color .25s ease}.button{transition:background .25s ease,transform .25s ease}
+  dialog[open]{animation:ink-dialog .25s ease-out}@keyframes ink-dialog{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+}
+@media(prefers-reduced-motion:reduce){.motion-pending{opacity:1;transform:none}.motion-arrived,dialog[open]{animation:none}}
+@media print{.motion-pending{opacity:1;transform:none}}
+

@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: inksubway-review
+    runtime: static
+    buildCommand: echo "Static INKSUBWAY website — no build required"
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: X-Robots-Tag
+        value: noindex, nofollow, noarchive
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
